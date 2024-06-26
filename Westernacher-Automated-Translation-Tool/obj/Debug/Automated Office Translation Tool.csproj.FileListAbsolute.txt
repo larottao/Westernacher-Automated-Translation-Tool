@@ -1,0 +1,90 @@
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\Automated Office Translation Tool.exe.config
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\Automated Office Translation Tool.exe
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\Automated Office Translation Tool.pdb
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Drawing.Common.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Drawing.Common.pdb
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Drawing.Common.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.csproj.AssemblyReference.cache
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated_Office_Translation_Tool.Properties.Resources.resources
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.csproj.GenerateResource.cache
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.csproj.CoreCompileInputs.cache
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.csproj.CopyComplete
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.exe
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.pdb
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\Newtonsoft.Json.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\Newtonsoft.Json.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated_Office_Translation_Tool.MainForm.resources
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\LaRottaO.CSharp.Utils.RestSharpWrapper.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Buffers.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Memory.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Numerics.Vectors.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Text.Encodings.Web.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Text.Json.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.ValueTuple.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\RestSharp.dll
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\LaRottaO.CSharp.Utils.RestSharpWrapper.pdb
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\LaRottaO.CSharp.Utils.RestSharpWrapper.dll.config
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Buffers.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Memory.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Numerics.Vectors.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Text.Encodings.Web.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Text.Json.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\System.ValueTuple.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\bin\Debug\RestSharp.xml
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.csproj.SuggestedBindingRedirects.cache
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.exe.config
+C:\Repositorios\Automated Office Translation Tool\Automated Office Translation Tool\obj\Debug\Automated_Office_Translation_Tool.TranslationOptionsForm.resources
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.csproj.AssemblyReference.cache
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\obj\Debug\Automated_Office_Translation_Tool.MainForm.resources
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\obj\Debug\Automated_Office_Translation_Tool.Properties.Resources.resources
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.csproj.GenerateResource.cache
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.csproj.CoreCompileInputs.cache
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.exe
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.pdb
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\Automated Office Translation Tool.exe.config
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\Automated Office Translation Tool.exe
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\Automated Office Translation Tool.pdb
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\Newtonsoft.Json.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Buffers.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Drawing.Common.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Memory.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Numerics.Vectors.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Text.Encodings.Web.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Text.Json.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.ValueTuple.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\WebDriver.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\WebDriver.Support.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\RestSharp.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\Newtonsoft.Json.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Buffers.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Drawing.Common.pdb
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Drawing.Common.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Memory.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Numerics.Vectors.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Text.Encodings.Web.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Text.Json.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\System.ValueTuple.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\WebDriver.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\WebDriver.Support.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\RestSharp.xml
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\obj\Debug\Automated Office Translation Tool.csproj.CopyComplete
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\LaRottaO.CSharp.WinFormsCrossThreads.dll
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\bin\Debug\LaRottaO.CSharp.WinFormsCrossThreads.pdb
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\obj\Debug\Automated_Office_Translation_Tool.Forms.LoadingScreen.resources
+C:\Repositorios\LaRottaO-Automated-Office-Translation-Tool\Automated Office Translation Tool\obj\Debug\Automated_Office_Translation_Tool.TranslationToolbarForm.resources

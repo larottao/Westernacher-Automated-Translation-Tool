@@ -1,0 +1,46 @@
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\Automated Office Translation Tool.exe.config
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\Automated Office Translation Tool.exe
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\Automated Office Translation Tool.pdb
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\Newtonsoft.Json.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\RestSharp.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Buffers.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Drawing.Common.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Memory.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Numerics.Vectors.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Text.Encodings.Web.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Text.Json.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.ValueTuple.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\WebDriver.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\WebDriver.Support.dll
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\Newtonsoft.Json.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\RestSharp.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Buffers.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Drawing.Common.pdb
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Drawing.Common.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Memory.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Numerics.Vectors.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Text.Encodings.Web.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Text.Json.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\System.ValueTuple.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\WebDriver.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\bin\Debug\WebDriver.Support.xml
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\obj\Debug\Westernacher-Automated-Translation-Tool.csproj.AssemblyReference.cache
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\obj\Debug\Automated_Office_Translation_Tool.Forms.LoadingScreen.resources
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\obj\Debug\Automated_Office_Translation_Tool.MainForm.resources
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\obj\Debug\Automated_Office_Translation_Tool.TranslationToolbarForm.resources
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\obj\Debug\Automated_Office_Translation_Tool.Properties.Resources.resources
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\obj\Debug\Westernacher-Automated-Translation-Tool.csproj.GenerateResource.cache
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\obj\Debug\Westernacher-Automated-Translation-Tool.csproj.CoreCompileInputs.cache
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\obj\Debug\Westernacher-Automated-Translation-Tool.csproj.CopyComplete
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\obj\Debug\Automated Office Translation Tool.exe
+C:\Repositorios\Westernacher-Automated-Translation-Tool\Westernacher-Automated-Translation-Tool\obj\Debug\Automated Office Translation Tool.pdb
