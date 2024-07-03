@@ -378,12 +378,12 @@ namespace Automated_Office_Translation_Tool
 
         private void radioButtonTranslateWeb_CheckedChanged(object sender, EventArgs e)
         {
-            buttonLaunchBrowser.Visible = !radioButtonTranslateWeb.Checked;
+            buttonLaunchBrowser.Visible = radioButtonTranslateWeb.Checked;
         }
 
         private void radioButtonTranslateAPI_CheckedChanged(object sender, EventArgs e)
         {
-            buttonLaunchBrowser.Visible = !radioButtonTranslateWeb.Checked;
+            buttonLaunchBrowser.Visible = radioButtonTranslateWeb.Checked;
         }
     }
 }
