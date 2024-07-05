@@ -239,7 +239,14 @@ namespace Automated_Office_Translation_Tool
                     {
                         if (figure.id.Equals(shape.Id))
                         {
-                            shape.Select();
+                            try
+                            {
+                                shape.Select();
+                            }
+                            catch
+                            {
+                                //No problem, just aesthetical
+                            }
 
                             if (useNewText)
                             {
@@ -356,11 +363,14 @@ namespace Automated_Office_Translation_Tool
             while (textFrame.TextRange.BoundWidth > maxWidth || textFrame.TextRange.BoundHeight > maxHeight)
             {
                 currentFontSize *= scaleFactor;
-                textFrame.TextRange.Font.Size = currentFontSize;
-                if (textFrame.TextRange.Font.Size <= 8)
+
+                if (currentFontSize <= GlobalVariables.minimumSizeTextWillBeShrinked)
                 {
                     break;
                 }
+
+                textFrame.TextRange.Font.Size = currentFontSize;
+              
             }
         }
 

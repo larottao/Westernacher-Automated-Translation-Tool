@@ -27,5 +27,6 @@ namespace Automated_Office_Translation_Tool
 
         public static String deepLUrl { get; set; } = "https://api-free.deepl.com/v2/translate";
         public static String deepLAuthKey { get; set; } = "";
+        public static float minimumSizeTextWillBeShrinked { get; internal set; } = 12;
     }
 }

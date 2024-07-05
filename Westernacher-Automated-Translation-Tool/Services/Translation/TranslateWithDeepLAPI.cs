@@ -47,8 +47,7 @@ namespace Automated_Office_Translation_Tool.Services.Translation
             var body = new
             {
                 text = new[] { originalText },
-                target_lang = globalDestinationLanguage,
-                preserve_formatting = 1
+                target_lang = globalDestinationLanguage
             };
 
             request.AddJsonBody(body);
