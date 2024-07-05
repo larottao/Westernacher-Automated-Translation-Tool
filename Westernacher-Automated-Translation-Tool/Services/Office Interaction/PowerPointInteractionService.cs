@@ -1,4 +1,5 @@
 ﻿using Automated_Office_Translation_Tool.Forms;
+using Automated_Office_Translation_Tool.Utils;
 using Microsoft.Office.Core;
 using Microsoft.Office.Interop.PowerPoint;
 using System;
@@ -132,7 +133,8 @@ namespace Automated_Office_Translation_Tool
                                     //figure.newText = textRange.Text.ToString();
                                     figure.PreviousTextIsBlank = String.IsNullOrEmpty(figure.previousText);
                                     figure.pendingToReplace = false;
-                                    figure.pendingToTranslate = true;
+
+                                    figure.pendingToTranslate = !Filters.IsBlankOrNonAlphabetic(textRange.Text.ToString());
 
                                     if (figure.containsText && !figure.PreviousTextIsBlank)
                                     {
@@ -170,7 +172,8 @@ namespace Automated_Office_Translation_Tool
                                             //figure.newText = textRange.Text.ToString();
                                             figure.PreviousTextIsBlank = String.IsNullOrEmpty(figure.previousText);
                                             figure.pendingToReplace = false;
-                                            figure.pendingToTranslate = true;
+
+                                            figure.pendingToTranslate = !Filters.IsBlankOrNonAlphabetic(textRange.Text.ToString());
 
                                             if (figure.containsText && !figure.PreviousTextIsBlank)
                                             {
