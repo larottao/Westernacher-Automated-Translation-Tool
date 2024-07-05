@@ -71,6 +71,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.textBoxCopyButtonCssSelector = new System.Windows.Forms.TextBox();
             this.checkBoxShowAdvConfig = new System.Windows.Forms.CheckBox();
+            this.buttonMinimize = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.tabControlConfig.SuspendLayout();
@@ -650,6 +651,24 @@
             this.checkBoxShowAdvConfig.UseVisualStyleBackColor = true;
             this.checkBoxShowAdvConfig.CheckedChanged += new System.EventHandler(this.checkBoxShowAdvConfig_CheckedChanged);
             // 
+            // buttonMinimize
+            // 
+            this.buttonMinimize.BackColor = System.Drawing.Color.Orange;
+            this.buttonMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonMinimize.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray;
+            this.buttonMinimize.FlatAppearance.BorderSize = 2;
+            this.buttonMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMinimize.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMinimize.ForeColor = System.Drawing.Color.Black;
+            this.buttonMinimize.Location = new System.Drawing.Point(877, 2);
+            this.buttonMinimize.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonMinimize.Name = "buttonMinimize";
+            this.buttonMinimize.Size = new System.Drawing.Size(26, 25);
+            this.buttonMinimize.TabIndex = 81;
+            this.buttonMinimize.Text = "--";
+            this.buttonMinimize.UseVisualStyleBackColor = false;
+            this.buttonMinimize.Click += new System.EventHandler(this.buttonMinimize_Click);
+            // 
             // TranslationToolbarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -657,6 +676,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(922, 368);
             this.ControlBox = false;
+            this.Controls.Add(this.buttonMinimize);
             this.Controls.Add(this.checkBoxShowAdvConfig);
             this.Controls.Add(this.tabControlConfig);
             this.Controls.Add(this.label1);
@@ -675,6 +695,7 @@
             this.MaximizeBox = false;
             this.Name = "TranslationToolbarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TranslationForm_FormClosing);
             this.Load += new System.EventHandler(this.TranslationWebSiteForm_Load);
             this.groupBox2.ResumeLayout(false);
@@ -737,5 +758,6 @@
         private System.Windows.Forms.TextBox textBoxDeepLURL;
         private System.Windows.Forms.TextBox textBoxDeepLAuthKey;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button buttonMinimize;
     }
 }

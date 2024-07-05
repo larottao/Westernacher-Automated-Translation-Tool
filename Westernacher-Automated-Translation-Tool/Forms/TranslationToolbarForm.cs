@@ -76,8 +76,8 @@ namespace Automated_Office_Translation_Tool
 
             this.Height = tabControlConfig.Top - 5;
 
-            this.Left = _mainForm.Left - (this.Width / 3);
-            this.Top = (_mainForm.Top + _mainForm.Height / 2) + (this.Height / 2);
+            this.Left = _mainForm.Left + _mainForm.Width / 2;
+            this.Top = (_mainForm.Top + _mainForm.Height) - (this.Height / 2);
 
             settingsFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "settings.txt");
             LoadSettings();
@@ -384,6 +384,11 @@ namespace Automated_Office_Translation_Tool
         private void radioButtonTranslateAPI_CheckedChanged(object sender, EventArgs e)
         {
             buttonLaunchBrowser.Visible = radioButtonTranslateWeb.Checked;
+        }
+
+        private void buttonMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
