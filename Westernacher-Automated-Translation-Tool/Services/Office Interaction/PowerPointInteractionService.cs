@@ -252,7 +252,7 @@ namespace Automated_Office_Translation_Tool
                             {
                                 // Store original formatting properties
                                 var originalFont = shape.TextFrame.TextRange.Font;
-                                var originalColor = shape.TextFrame.TextRange.Font.Color;
+                                var originalColor = shape.TextFrame.TextRange.Font.Color.RGB;
                                 var originalBold = shape.TextFrame.TextRange.Font.Bold;
                                 var originalItalic = shape.TextFrame.TextRange.Font.Italic;
                                 var originalUnderline = shape.TextFrame.TextRange.Font.Underline;
@@ -263,7 +263,7 @@ namespace Automated_Office_Translation_Tool
                                 // Reapply original formatting properties
                                 shape.TextFrame.TextRange.Font.Name = originalFont.Name;
                                 shape.TextFrame.TextRange.Font.Size = originalFont.Size;
-                                //shape.TextFrame.TextRange.Font.Color = originalColor;
+                                shape.TextFrame.TextRange.Font.Color.RGB = originalColor;
                                 shape.TextFrame.TextRange.Font.Bold = originalBold;
                                 shape.TextFrame.TextRange.Font.Italic = originalItalic;
                                 shape.TextFrame.TextRange.Font.Underline = originalUnderline;

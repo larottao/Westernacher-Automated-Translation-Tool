@@ -44,9 +44,13 @@ namespace Automated_Office_Translation_Tool.Services.Translation
             request.AddHeader("Authorization", "DeepL-Auth-Key " + deepLAuthKey);
             request.AddHeader("Content-Type", "application/json");
 
+            //DeepL will screw the line jumps. This code fixes it:
+
+            String originalTextWithProperLineJumps = originalText.Replace("\r", "\r\n");   
+
             var body = new
             {
-                text = new[] { originalText },
+                text = new[] { originalTextWithProperLineJumps },
                 target_lang = globalDestinationLanguage
             };
 
