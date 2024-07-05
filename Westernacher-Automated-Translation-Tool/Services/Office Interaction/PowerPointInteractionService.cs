@@ -250,7 +250,23 @@ namespace Automated_Office_Translation_Tool
 
                             if (useNewText)
                             {
+                                // Store original formatting properties
+                                var originalFont = shape.TextFrame.TextRange.Font;
+                                var originalColor = shape.TextFrame.TextRange.Font.Color;
+                                var originalBold = shape.TextFrame.TextRange.Font.Bold;
+                                var originalItalic = shape.TextFrame.TextRange.Font.Italic;
+                                var originalUnderline = shape.TextFrame.TextRange.Font.Underline;
+
+                                // Update the text
                                 shape.TextFrame.TextRange.Text = figure.newText;
+
+                                // Reapply original formatting properties
+                                shape.TextFrame.TextRange.Font.Name = originalFont.Name;
+                                shape.TextFrame.TextRange.Font.Size = originalFont.Size;
+                                //shape.TextFrame.TextRange.Font.Color = originalColor;
+                                shape.TextFrame.TextRange.Font.Bold = originalBold;
+                                shape.TextFrame.TextRange.Font.Italic = originalItalic;
+                                shape.TextFrame.TextRange.Font.Underline = originalUnderline;
 
                                 if (shrinkTextIfNecessary)
                                 {
@@ -370,7 +386,6 @@ namespace Automated_Office_Translation_Tool
                 }
 
                 textFrame.TextRange.Font.Size = currentFontSize;
-              
             }
         }
 
