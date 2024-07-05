@@ -428,9 +428,9 @@
             this.checkBoxLocalDic.ForeColor = System.Drawing.Color.Black;
             this.checkBoxLocalDic.Location = new System.Drawing.Point(340, 16);
             this.checkBoxLocalDic.Name = "checkBoxLocalDic";
-            this.checkBoxLocalDic.Size = new System.Drawing.Size(283, 19);
+            this.checkBoxLocalDic.Size = new System.Drawing.Size(254, 19);
             this.checkBoxLocalDic.TabIndex = 78;
-            this.checkBoxLocalDic.Text = "Always use local dictionary before of API or web";
+            this.checkBoxLocalDic.Text = "Prefer local dictionary before of API or web";
             this.checkBoxLocalDic.UseVisualStyleBackColor = true;
             this.checkBoxLocalDic.CheckedChanged += new System.EventHandler(this.checkBoxLocalDic_CheckedChanged);
             // 

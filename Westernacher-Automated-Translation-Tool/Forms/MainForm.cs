@@ -198,8 +198,14 @@ namespace Automated_Office_Translation_Tool
             new DataGridViewChangeValue().changeValue(sender, e);
         }
 
-        private void dataGridView_SelectionChanged(object sender, EventArgs e)
+        private void buttonMarkPendingToReplace_Click(object sender, EventArgs e)
         {
+            foreach (Figure figure in globalFiguresList)
+            {
+                figure.pendingToReplace = !String.IsNullOrEmpty(figure.newText);
+            }
+
+            dataGridView.Refresh();
         }
     }
 }

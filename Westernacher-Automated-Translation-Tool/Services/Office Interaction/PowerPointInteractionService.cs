@@ -248,59 +248,7 @@ namespace Automated_Office_Translation_Tool
                                 //No problem, just aesthetical
                             }
 
-                            if (useNewText)
-                            {
-                                // Store original formatting properties
-                                var originalFont = shape.TextFrame.TextRange.Font;
-                                var originalColor = shape.TextFrame.TextRange.Font.Color.RGB;
-                                var originalBold = shape.TextFrame.TextRange.Font.Bold;
-                                var originalItalic = shape.TextFrame.TextRange.Font.Italic;
-                                var originalUnderline = shape.TextFrame.TextRange.Font.Underline;
-
-                                // Update the text
-                                shape.TextFrame.TextRange.Text = figure.newText;
-
-                                // Reapply original formatting properties
-                                shape.TextFrame.TextRange.Font.Name = originalFont.Name;
-                                shape.TextFrame.TextRange.Font.Size = originalFont.Size;
-                                shape.TextFrame.TextRange.Font.Color.RGB = originalColor;
-                                shape.TextFrame.TextRange.Font.Bold = originalBold;
-                                shape.TextFrame.TextRange.Font.Italic = originalItalic;
-                                shape.TextFrame.TextRange.Font.Underline = originalUnderline;
-
-                                if (shrinkTextIfNecessary)
-                                {
-                                    try
-                                    {
-                                        float textWidth = shape.TextFrame.TextRange.BoundWidth;
-                                        float textHeight = shape.TextFrame.TextRange.BoundHeight;
-
-                                        float shapeWidth = shape.Width;
-                                        float shapeHeight = shape.Height;
-
-                                        if (textWidth > shapeWidth || textHeight > shapeHeight)
-                                        {
-                                            // Text is bigger than the shape size
-                                            AdjustTextSizeToFit(shape.TextFrame, shapeWidth, shapeHeight);
-                                            System.Console.WriteLine($"Text in shape '{shape.Name}' has been adjusted to fit inside the shape.");
-                                        }
-                                        else
-                                        {
-                                            System.Console.WriteLine($"Text in shape '{shape.Name}' fits inside the shape.");
-                                        }
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        Console.WriteLine(ex.ToString());
-                                        Console.WriteLine("Unable to Shrink");
-                                    }
-                                }
-                            }
-
-                            if (usePreviousText)
-                            {
-                                shape.TextFrame.TextRange.Text = figure.previousText;
-                            }
+                            replaceShapeText(shape, figure, useNewText, usePreviousText, shrinkTextIfNecessary);
 
                             return new Tuple<Boolean, String>(true, "");
                         }
@@ -320,42 +268,7 @@ namespace Automated_Office_Translation_Tool
 
                             Shape cellShape = cell.Shape;
 
-                            if (useNewText)
-                            {
-                                cellShape.TextFrame.TextRange.Text = figure.newText;
-
-                                if (shrinkTextIfNecessary)
-                                {
-                                    try
-                                    {
-                                        float textWidth = shape.TextFrame.TextRange.BoundWidth;
-                                        float textHeight = shape.TextFrame.TextRange.BoundHeight;
-
-                                        float shapeWidth = shape.Width;
-                                        float shapeHeight = shape.Height;
-
-                                        if (textWidth > shapeWidth || textHeight > shapeHeight)
-                                        {
-                                            // Text is bigger than the shape size
-                                            AdjustTextSizeToFit(shape.TextFrame, shapeWidth, shapeHeight);
-                                            System.Console.WriteLine($"Text in shape '{shape.Name}' has been adjusted to fit inside the shape.");
-                                        }
-                                        else
-                                        {
-                                            System.Console.WriteLine($"Text in shape '{shape.Name}' fits inside the shape.");
-                                        }
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        Console.WriteLine(ex.ToString());
-                                        Console.WriteLine("Unable to Shrink");
-                                    }
-                                }
-                            }
-                            if (usePreviousText)
-                            {
-                                cellShape.TextFrame.TextRange.Text = figure.previousText;
-                            }
+                            replaceShapeText(cellShape, figure, useNewText, usePreviousText, shrinkTextIfNecessary);
 
                             break;
                         }
@@ -367,6 +280,61 @@ namespace Automated_Office_Translation_Tool
             catch (Exception ex)
             {
                 return new Tuple<Boolean, String>(false, "ERROR: UNABLE TO SELECT SLIDE / FIGURE. " + ex.ToString());
+            }
+        }
+
+        private void replaceShapeText(Shape shape, Figure figure, Boolean useNewText, Boolean usePreviousText, Boolean shrinkTextIfNecessary)
+        {
+            // Store original formatting properties
+            var originalFontName = shape.TextFrame.TextRange.Font.Name;
+            var originalFontSize = shape.TextFrame.TextRange.Font.Size;
+            var originalColor = shape.TextFrame.TextRange.Font.Color.RGB;
+            var originalBaselineOffset = shape.TextFrame.TextRange.Font.BaselineOffset;
+
+            //var originalBold = shape.TextFrame.TextRange.Font.Bold;
+            //var originalItalic = shape.TextFrame.TextRange.Font.Italic;
+            //var originalUnderline = shape.TextFrame.TextRange.Font.Underline;
+
+            if (useNewText)
+            {
+                shape.TextFrame.TextRange.Text = figure.newText;
+            }
+
+            if (usePreviousText)
+            {
+                shape.TextFrame.TextRange.Text = figure.previousText;
+            }
+
+            // Reapply original formatting properties
+            shape.TextFrame.TextRange.Font.Name = originalFontName;
+            shape.TextFrame.TextRange.Font.Size = originalFontSize;
+            shape.TextFrame.TextRange.Font.Color.RGB = originalColor;
+            shape.TextFrame.TextRange.Font.BaselineOffset = originalBaselineOffset;
+
+            //shape.TextFrame.TextRange.Font.Bold = originalBold;
+            //shape.TextFrame.TextRange.Font.Italic = originalItalic;
+            //shape.TextFrame.TextRange.Font.Underline = originalUnderline;
+
+            if (shrinkTextIfNecessary)
+            {
+                try
+                {
+                    float textWidth = shape.TextFrame.TextRange.BoundWidth;
+                    float textHeight = shape.TextFrame.TextRange.BoundHeight;
+
+                    float shapeWidth = shape.Width;
+                    float shapeHeight = shape.Height;
+
+                    if (textWidth > shapeWidth || textHeight > shapeHeight)
+                    {
+                        AdjustTextSizeToFit(shape.TextFrame, shapeWidth, shapeHeight);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                    Console.WriteLine("Unable to Shrink");
+                }
             }
         }
 
