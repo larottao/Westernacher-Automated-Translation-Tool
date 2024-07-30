@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Office.Core;
+using System;
 using System.Collections.Generic;
 
 namespace Automated_Office_Translation_Tool
@@ -12,6 +13,8 @@ namespace Automated_Office_Translation_Tool
         Tuple<Boolean, String> openPowerpointFile(String filePath);
 
         Boolean isPowerpointFileOpen();
+
+        Tuple<bool, string> setProofingLanguage(MsoLanguageID msoLanguageID);
 
         Tuple<bool, string> tryToSelectSlideAndFigure(int slideNumber, int id);
 

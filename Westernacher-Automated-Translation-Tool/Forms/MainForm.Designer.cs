@@ -32,10 +32,11 @@
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.buttonLoadOfficeFile = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.buttonMarkPendingToReplace = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonShowToolbar = new System.Windows.Forms.Button();
             this.buttonInjectNewValues = new System.Windows.Forms.Button();
+            this.buttonMarkPendingToReplace = new System.Windows.Forms.Button();
+            this.buttonSetProofing = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -52,7 +53,7 @@
             this.dataGridView.Location = new System.Drawing.Point(13, 83);
             this.dataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(1087, 545);
+            this.dataGridView.Size = new System.Drawing.Size(1201, 545);
             this.dataGridView.TabIndex = 0;
             this.dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
             this.dataGridView.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellEndEdit);
@@ -78,37 +79,23 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.buttonMarkPendingToReplace);
+            this.groupBox1.Controls.Add(this.buttonSetProofing);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.buttonShowToolbar);
+            this.groupBox1.Controls.Add(this.buttonMarkPendingToReplace);
             this.groupBox1.Controls.Add(this.buttonInjectNewValues);
             this.groupBox1.Controls.Add(this.buttonLoadOfficeFile);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1113, 76);
+            this.groupBox1.Size = new System.Drawing.Size(1227, 76);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            // 
-            // buttonMarkPendingToReplace
-            // 
-            this.buttonMarkPendingToReplace.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonMarkPendingToReplace.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray;
-            this.buttonMarkPendingToReplace.FlatAppearance.BorderSize = 2;
-            this.buttonMarkPendingToReplace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMarkPendingToReplace.Location = new System.Drawing.Point(1125, 21);
-            this.buttonMarkPendingToReplace.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonMarkPendingToReplace.Name = "buttonMarkPendingToReplace";
-            this.buttonMarkPendingToReplace.Size = new System.Drawing.Size(166, 39);
-            this.buttonMarkPendingToReplace.TabIndex = 6;
-            this.buttonMarkPendingToReplace.Text = "SEL ALL Pending to Replace";
-            this.buttonMarkPendingToReplace.UseVisualStyleBackColor = true;
-            this.buttonMarkPendingToReplace.Click += new System.EventHandler(this.buttonMarkPendingToReplace_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(900, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(1027, 21);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(187, 40);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -145,12 +132,44 @@
             this.buttonInjectNewValues.UseVisualStyleBackColor = true;
             this.buttonInjectNewValues.Click += new System.EventHandler(this.buttonInjectNewValues_Click);
             // 
+            // buttonMarkPendingToReplace
+            // 
+            this.buttonMarkPendingToReplace.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonMarkPendingToReplace.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray;
+            this.buttonMarkPendingToReplace.FlatAppearance.BorderSize = 2;
+            this.buttonMarkPendingToReplace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMarkPendingToReplace.Font = new System.Drawing.Font("Microsoft YaHei", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMarkPendingToReplace.Location = new System.Drawing.Point(770, 22);
+            this.buttonMarkPendingToReplace.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonMarkPendingToReplace.Name = "buttonMarkPendingToReplace";
+            this.buttonMarkPendingToReplace.Size = new System.Drawing.Size(121, 42);
+            this.buttonMarkPendingToReplace.TabIndex = 6;
+            this.buttonMarkPendingToReplace.Text = "EXPERIMENTAL SEL ALL Pending to Replace";
+            this.buttonMarkPendingToReplace.UseVisualStyleBackColor = true;
+            this.buttonMarkPendingToReplace.Click += new System.EventHandler(this.buttonMarkPendingToReplace_Click);
+            // 
+            // buttonSetProofing
+            // 
+            this.buttonSetProofing.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSetProofing.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray;
+            this.buttonSetProofing.FlatAppearance.BorderSize = 2;
+            this.buttonSetProofing.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSetProofing.Font = new System.Drawing.Font("Microsoft YaHei", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSetProofing.Location = new System.Drawing.Point(899, 21);
+            this.buttonSetProofing.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSetProofing.Name = "buttonSetProofing";
+            this.buttonSetProofing.Size = new System.Drawing.Size(121, 42);
+            this.buttonSetProofing.TabIndex = 7;
+            this.buttonSetProofing.Text = "EXPERIMENTAL SET PROOFING";
+            this.buttonSetProofing.UseVisualStyleBackColor = true;
+            this.buttonSetProofing.Click += new System.EventHandler(this.buttonSetProofing_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1113, 638);
+            this.ClientSize = new System.Drawing.Size(1227, 638);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -176,6 +195,7 @@
         private System.Windows.Forms.Button buttonShowToolbar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button buttonMarkPendingToReplace;
+        private System.Windows.Forms.Button buttonSetProofing;
     }
 }
 

@@ -34,8 +34,21 @@ namespace Automated_Office_Translation_Tool
             {
                 if (GlobalVariables.currentOfficeDocPath != null)
                 {
-                    Boolean saveBeforeClosingElection = offerToSaveDocumentBeforeExiting();
-                    closeCurrentlyOpenedFiles(saveBeforeClosingElection);
+                    DialogResult saveBeforeClosingElection = offerToSaveDocumentBeforeExiting();
+
+                    if (saveBeforeClosingElection == DialogResult.Cancel)
+                    {
+                        return;
+                    }
+
+                    Boolean saveBeforeClosing = false;
+
+                    if (saveBeforeClosingElection == DialogResult.Yes)
+                    {
+                        saveBeforeClosing = true;
+                    }
+
+                    closeCurrentlyOpenedFiles(saveBeforeClosing);
                 }
 
                 string extension = Path.GetExtension(openFileDialog.FileName);
@@ -89,37 +102,45 @@ namespace Automated_Office_Translation_Tool
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Boolean saveBeforeClosingElection = offerToSaveDocumentBeforeExiting();
-            closeCurrentlyOpenedFiles(saveBeforeClosingElection);
+            DialogResult saveBeforeClosingElection = offerToSaveDocumentBeforeExiting();
+
+            if (saveBeforeClosingElection == DialogResult.Cancel)
+            {
+                e.Cancel = true;
+                return;
+            }
+
+            Boolean saveBeforeClosing = false;
+
+            if (saveBeforeClosingElection == DialogResult.Yes)
+            {
+                saveBeforeClosing = true;
+            }
+
+            closeCurrentlyOpenedFiles(saveBeforeClosing);
             closeCurrentOfficeInstance();
         }
 
-        private Boolean offerToSaveDocumentBeforeExiting()
+        private DialogResult offerToSaveDocumentBeforeExiting()
         {
-            Boolean saveBeforeClosingElection = false;
-
-            if (GlobalVariables.currentOfficeDocPath != null)
+            if (GlobalVariables.currentOfficeDocPath == null)
             {
-                DialogResult result = MessageBox.Show(new Form() { TopMost = true }, "Do you want to save the changes made on the office document?", "Before exiting", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes)
-                {
-                    saveBeforeClosingElection = true;
-                }
+                return DialogResult.No;
             }
 
-            return saveBeforeClosingElection;
+            return MessageBox.Show(new Form() { TopMost = true }, "Do you want to save the changes made on the office document?", "Before exiting", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
         }
 
-        private void closeCurrentlyOpenedFiles(Boolean saveBeforeClosingElection)
+        private void closeCurrentlyOpenedFiles(Boolean saveBeforeClosing)
         {
             if (_iPowerPointInteraction.isPowerpointFileOpen())
             {
-                _iPowerPointInteraction.closePowerpointFile(saveBeforeClosingElection);
+                _iPowerPointInteraction.closePowerpointFile(saveBeforeClosing);
             }
 
             if (_iExcelInteraction.isExcelWorkbookOpen())
             {
-                _iExcelInteraction.closeExcelFile(saveBeforeClosingElection);
+                _iExcelInteraction.closeExcelFile(saveBeforeClosing);
             }
         }
 
@@ -206,6 +227,11 @@ namespace Automated_Office_Translation_Tool
             }
 
             dataGridView.Refresh();
+        }
+
+        private void buttonSetProofing_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(_iPowerPointInteraction.setProofingLanguage(Microsoft.Office.Core.MsoLanguageID.msoLanguageIDMexicanSpanish).Item2);
         }
     }
 }

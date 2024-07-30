@@ -260,7 +260,14 @@ namespace Automated_Office_Translation_Tool
                     {
                         if (figure.parentTableId.Equals(shape.Id))
                         {
-                            shape.Select();
+                            try
+                            {
+                                shape.Select();
+                            }
+                            catch
+                            {
+                                //No problem, just aesthetical
+                            }
 
                             Table table = shape.Table;
 
@@ -433,6 +440,42 @@ namespace Automated_Office_Translation_Tool
         public bool isPowerpointFileOpen()
         {
             return pptPresentation != null;
+        }
+
+        public Tuple<bool, string> setProofingLanguage(MsoLanguageID msoLanguageID)
+        {
+            try
+            {
+                foreach (Slide slide in pptPresentation.Slides)
+                {
+                    foreach (Shape shape in slide.Shapes)
+                    {
+                        if (shape.Type == MsoShapeType.msoGroup)
+                        {
+                            shape.Ungroup();
+                        }
+                    }
+
+                    foreach (Shape shape in slide.Shapes)
+                    {
+                        if (shape.HasTextFrame == MsoTriState.msoTrue && shape.TextFrame.HasText == MsoTriState.msoTrue)
+                        {
+                            // Iterate through the text parts and change proofing language
+                            TextRange textRange = shape.TextFrame.TextRange;
+                            if (textRange != null)
+                            {
+                                textRange.LanguageID = msoLanguageID;
+                            }
+                        }
+                    }
+                }
+
+                return new Tuple<bool, string>(true, "Done");
+            }
+            catch (Exception ex)
+            {
+                return new Tuple<bool, string>(false, ex.ToString());
+            }
         }
     }
 }
